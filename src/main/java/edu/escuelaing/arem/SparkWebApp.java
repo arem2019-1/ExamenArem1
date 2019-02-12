@@ -28,8 +28,8 @@ public class SparkWebApp {
     public static void main(String[] args) {
         setPort(4567);
         port(getPort());
-        get("/inputdata", (req, res) -> inputDataPage(req, res));
-        get("/results", (req, res) -> resultsPage(req, res));
+        get("/datos", (req, res) -> inputDataPage(req, res));
+        get("/resultados", (req, res) -> resultsPage(req, res));
         
 
     }
@@ -41,7 +41,7 @@ public class SparkWebApp {
                 + "<body>"
                 + "<h2>Se mostrara la lista de numeros, la sumatoria y multiplicatoria de los mismos</h2>"
                 + "<h3>introduzca cada valor separado por un espacio</h3>"
-                + "<form action=\"/results\">"
+                + "<form action=\"/resultados\">"
                 + "  Columna 1 (ejemplo: 160 591 114 229 230 270 128 1657 624 1503):<br>"
                 + "  <input type=\"text\" name=\"columna1\" value=\"\" required>"
                 + "  <br>"
@@ -83,7 +83,7 @@ public class SparkWebApp {
             + "<h2>Los resultados son:</h2>"
             + "<h3 style=\"color:red;\">Columna 1:</h3>"
             + "<h4>"+"JSON:"+"  "+response+"</h4>"
-            +"<a href=\"/inputdata\">Si desea realizar otra consulta</a>"+ "</body>\n";
+            +"<a href=\"/datos\">Si desea realizar otra consulta</a>"+ "</body>\n";
         }else{
             pageContent="error: columna 1 esta vacia";
         }
