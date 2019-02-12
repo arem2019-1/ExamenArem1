@@ -83,7 +83,8 @@ public class SparkWebApp {
             + "<h2>Los resultados son:</h2>"
             + "<h3 style=\"color:red;\">Columna 1:</h3>"
             + "<h4>"+"JSON:"+"  "+response+"</h4>"
-            +"<a href=\"/\">Si desea realizar otra consulta</a>"+ "</body>\n";
+            +"<a href=\"/\">Si desea realizar otra consulta</a>"+ "</body>\n"
+            + "<h2>Realizado por : Cesar Eduardo Lanos Camacho</h2>";
         }else{
             pageContent="error: columna 1 esta vacia";
         }
