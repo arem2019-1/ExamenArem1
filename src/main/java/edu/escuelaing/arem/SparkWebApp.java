@@ -28,7 +28,7 @@ public class SparkWebApp {
     public static void main(String[] args) {
         setPort(4567);
         port(getPort());
-        get("/datos", (req, res) -> inputDataPage(req, res));
+        get("/", (req, res) -> inputDataPage(req, res));
         get("/resultados", (req, res) -> resultsPage(req, res));
         
 
@@ -83,7 +83,7 @@ public class SparkWebApp {
             + "<h2>Los resultados son:</h2>"
             + "<h3 style=\"color:red;\">Columna 1:</h3>"
             + "<h4>"+"JSON:"+"  "+response+"</h4>"
-            +"<a href=\"/datos\">Si desea realizar otra consulta</a>"+ "</body>\n";
+            +"<a href=\"/\">Si desea realizar otra consulta</a>"+ "</body>\n";
         }else{
             pageContent="error: columna 1 esta vacia";
         }

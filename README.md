@@ -1,12 +1,12 @@
 # PARCIAL PRACTICO 1 AREM
 
-Este es un trabajo de uso academico. Este programa calcula, dada una lista de numero, la sumatoria y multiplicatoria de los mismos. 
+Este es un trabajo de uso academico. Este programa calcula, dada una lista de numeros, la sumatoria y multiplicatoria de los mismos. 
 Ademas de mostrar el menor numero y mayor numero de entre la lista. Fue escrito en Java, Maven,spark, GITHUB y Heroku.
 
 
 ## HEROKU
 
-[Link HEROKU]()
+[Link HEROKU](https://examenarem.herokuapp.com/)
 
 
 ## EMPEZAR
