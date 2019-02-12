@@ -1,7 +1,7 @@
 # PARCIAL PRACTICO 1 AREM
 
-    Este es un trabajo de uso academico. Este programa calcula la sumatoria y multiplicatoria de una lista de numeros.
-    Mostrara el numero menor y mayor, ademas del resultado de la suma y multiplicacion de los numeros. Fue escrito en Java, Maven,spark, GITHUB y Heroku.
+Este es un trabajo de uso academico. Este programa calcula la sumatoria y multiplicatoria de una lista de numeros.
+Mostrara el numero menor y mayor, ademas del resultado de la suma y multiplicacion de los numeros. Fue escrito en Java, Maven,spark, GITHUB y Heroku.
 
 
 ## HEROKU
