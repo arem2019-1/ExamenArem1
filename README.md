@@ -1,7 +1,7 @@
 # PARCIAL PRACTICO 1 AREM
 
-Este es un trabajo de uso academico. Este programa calcula, dada una lista de numeros, la sumatoria y multiplicatoria de los mismos. 
-Ademas de mostrar el menor numero y mayor numero de entre la lista. Fue escrito en Java, Maven,spark, GITHUB y Heroku.
+    Este es un trabajo de uso academico. Este programa calcula la sumatoria y multiplicatoria de una lista de numeros.
+    Mostrara el numero menor y mayor, ademas del resultado de la suma y multiplicacion de los numeros. Fue escrito en Java, Maven,spark, GITHUB y Heroku.
 
 
 ## HEROKU
@@ -28,7 +28,7 @@ Tener instalado Java jdk versiones 7+, Maven comandos y git
 $$ mvn package
 ```
 2.Opcional:
-si requiere la documnetacion del codigo
+    Si requiere la documnetacion del codigo
 
 ```
 mvn javadoc:javadoc
@@ -36,7 +36,7 @@ mvn javadoc:javadoc
 ### Ejecutando
 
 2. Demostracion:
-  compile el proyecto en terminal desde la carpeta raiz ejecutando la siguiente linea:
+  Compile el proyecto en terminal desde la carpeta raiz ejecutando la siguiente linea:
   
 ```
 java -jar target/SparkWebApp-1.0.0-jar-with-dependencies.jar
@@ -44,7 +44,7 @@ java -jar target/SparkWebApp-1.0.0-jar-with-dependencies.jar
 ```
 
 3. Servidor:
-una vez compilado el programa se ejecuta en el puerto 4567,para probarlo vaya a esta direccion desde su navegador:
+Una vez compilado el programa se ejecuta en el puerto 4567,para probarlo vaya a esta direccion desde su navegador:
 ```
 http://localhost:4567/datos
   
